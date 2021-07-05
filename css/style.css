@@ -12,7 +12,7 @@ body{
 .orange-color{
     color: orange;
 }
-section{
+.container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -36,6 +36,9 @@ section{
 h1{
     font-size: 50px;
 }
+h2{
+    font-size: 40px;
+}
 p{
     text-align: justify;
 }
@@ -44,6 +47,33 @@ p{
     background-repeat: no-repeat;
     background-position: bottom right;
     padding-right: 10%;
+}
+.box{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 5px;
+    padding-left: 35px;
+    border-radius: 10px;
+}
+.experiance{
+    background-image: url(../img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+}
+#adult{
+  border-left: 7px solid;
+  border-image: linear-gradient(salmon , tomato);
+  border-image-slice: 1;
+}
+#baby{
+   border-left: 7px solid;
+   border-image: linear-gradient(blue , cyan);
+   border-image-slice: 1;
+}
+footer p{
+    text-align: center;
 }
 
 
